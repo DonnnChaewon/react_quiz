@@ -59,7 +59,7 @@ const Quiz = () => {
 
     return (
         <div className='container'>
-            <h2><center>Quiz</center></h2><hr />
+            <h2><center>Example Quiz</center></h2><hr />
             {result ? <></> : <><h2>{index+1}. {question.question}</h2>
             <ul>
                 <li ref={Option1} onClick={(e) => {checkAnswer(e, 1)}}>{question.option1}</li>
