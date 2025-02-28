@@ -1,12 +1,12 @@
 .container {
-    width: 600px;
+    width: 640px;
     margin: auto;
-    margin-top: 20px;
     background: white;
     color: #262626;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 10px;
     padding: 40px 50px;
 }
@@ -25,10 +25,10 @@
 .container ul li {
     display: flex;
     align-items: center;
-    height: 70px;
+    height: 60px;
     padding-left: 15px;
     border: 1px solid #686868;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -40,14 +40,13 @@
     height: 60px;
     background: rgb(13, 174, 223);
     font-size: 25px;
-    font-weight: 500;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .container .index {
     margin: auto;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .container .correct {

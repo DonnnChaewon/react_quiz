@@ -9,16 +9,16 @@ export const data = [
     explanation: "Hanni was born in Australia with Vietnamese parents, while the other three are originally from South Korea."
   },
   {
-    question: "What Indonesian dish is based on beef",
-    option1: "Kerak Telur",
-    option2: "Rendang",
-    option3: "Gulai Ikan",
-    option4: "Ayam Betutu",
+    question: "Which food is not categorized as Western?",
+    option1: "Steak",
+    option2: "Sushi",
+    option3: "Spaghetti",
+    option4: "Pizza",
     answer: 2,
-    explanation: "Rendang is a beef that is mixed with spices. Kerak telur is a dish that is made of eggs and rice. While gulai ikan and ayam betutu are similar to fish and chicken with curry, respectively."
+    explanation: "Sushi is from Japan, steak is from USA, and the other two are from Italy."
   },
   {
-    question: "Besides HTML, what programming language that can be used as frontend",
+    question: "Besides HTML, what programming language that can be used as frontend?",
     option1: "React",
     option2: "PHP",
     option3: "Python",
