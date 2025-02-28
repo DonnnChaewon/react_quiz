@@ -71,4 +71,40 @@ export const data = [
     answer: 4,
     explanation: "In games, light and dark are opposite elements that are also related to real life."
   },
+  {
+    question: "There is only one city that is fictional, what is it?",
+    option1: "Wakanda",
+    option2: "New York",
+    option3: "Washington",
+    option4: "Seoul",
+    answer: 1,
+    explanation: "Wakanda is a fictional African city from Marvel comics and is a home to Black Panther. Seoul is a city in South Korea, and the other two are cities in USA."
+  },
+  {
+    question: "Which animal that has horns but not on top of its head?",
+    option1: "Bull",
+    option2: "Deer",
+    option3: "Rhinoceros",
+    option4: "Bison",
+    answer: 3,
+    explanation: "Rhinoceros has horns on top of their nose while the other three hava horns on top of their head"
+  },
+  {
+    question: "Among these metal chemical elements which one is not solid in form?",
+    option1: "Chromium",
+    option2: "Platinum",
+    option3: "Aluminium",
+    option4: "Mercury",
+    answer: 4,
+    explanation: "Mercury is liquid in form while the other three are solid in form."
+  },
+  {
+    question: "Which geometry shape doesn't have an edge?",
+    option1: "Pyramid",
+    option2: "Sphere",
+    option3: "Cone",
+    option4: "Cube",
+    answer: 2,
+    explanation: "Sphere is a geometry shape that resembles a ball. Pyramid is a square-based shape that has four triangles on each sides. Cone is a circle-based shape that has a triangle on its top. Cube is a square-based shape that has four squares on each sides and covered with a square."
+  }
 ];

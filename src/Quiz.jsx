@@ -70,7 +70,9 @@ const Quiz = () => {
             {explanation && <p>{question.explanation}</p>}
             <button onClick={next}>Next</button>
             <div className="index">{index+1} of {data.length} questions</div></>}
-            {result ? <><h2><center>You answered {score} out of {data.length} correct answers.</center></h2><button onClick={reset}>Reset</button></> : <></>}
+            {result ? <><h2><center>You answered {score} out of {data.length} correct answers.</center></h2>
+            <h2><center>Your score: {((score / data.length)*100).toFixed(2)}</center></h2>
+            <button onClick={reset}>Reset</button></> : <></>}
         </div>
     )
 }
